@@ -3,6 +3,6 @@
   <time datetime="">{{ task.dueDate }}</time>
   <p>{{ task.summary }}</p>
   <p class="actions">
-    <button type="button">Complete</button>
+    <button type="button" (click)="onCompleteTask()">Complete</button>
   </p>
 </article>
